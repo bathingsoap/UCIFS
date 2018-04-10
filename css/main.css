@@ -1,0 +1,102 @@
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 80px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+.sidenav a:hover {
+    color: #ff11ff;
+}
+
+.top {
+    background-color: blue;
+    margin: 0;
+}
+
+.main {
+    margin-left: 80px;
+    margin-right: 100px;
+    margin-top: 0;
+
+}
+
+.border {
+    border-width: 5px;
+    border-color: deepskyblue;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    /*color: white;*/
+    text-align: center;
+    line-height: 1.6;
+    letter-spacing: 1.8px;
+    font-size: 100px;
+}
+
+h1.yellow {
+    color: yellow;
+    text-shadow: 3px 2px mediumpurple;
+}
+
+h1.white {
+    color: white;
+    text-shadow: 3px 2px black;
+}
+
+.about {
+    width: auto;
+    display: inline-block;
+}
+
+.about img {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+​
+.about p {
+    text-align: center;
+    font-size: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
