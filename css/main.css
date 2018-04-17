@@ -26,7 +26,7 @@
 }
 
 .border {
-    border-width: 5px;
+    border-width: 3px;
     border-color: deepskyblue;
     border-style: solid;
     border-radius: 10px;
@@ -42,23 +42,29 @@ h1 {
     font-size: 100px;
 }
 
-h1.yellow {
+h1.title1 {
     color: yellow;
     text-shadow: 3px 2px mediumpurple;
 }
 
-h1.white {
+h1.title2 {
     color: white;
-    text-shadow: 3px 2px black;
+    text-shadow: 3px 2px gray;
 }
 
 .about {
     width: auto;
     display: inline-block;
+    margin-top: 10px;
 }
 
+.aboutsec{
+    background-color: lightgray;
+    padding: 15px 5px 0px 5px;
+    border-radius: 10px;
+}
 .about img {
-    width: 60%;
+    width: 80%;
     height: auto;
     display: block;
     margin: auto;
@@ -68,6 +74,13 @@ h1.white {
 .about p {
     text-align: center;
     font-size: 30px;
+}
+
+.aboutdescrip{
+    margin: 3px;
+    padding-top: 4px;
+    font-size: 20px;
+    text-align: justify;
 }
 
 * {
